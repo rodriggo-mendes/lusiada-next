@@ -1,0 +1,98 @@
+body { margin: 0; padding: 0; font-family: 'Mitr', sans-serif; }
+
+header,
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+  padding: 0 10px;
+  background-color: white;
+  border-bottom: 1px solid antiquewhite;
+}
+
+nav {
+  width: auto;
+  height: 7vh;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  transition: 200ms;
+}
+
+header nav a:hover {
+  color: #ffc800;
+  transition: 200ms;
+}
+
+header nav li {
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+  padding: 0 14px;
+  text-transform: uppercase;
+}
+
+header button {
+  width: auto;
+  height: 6vh;
+  padding: 1vh 15px;
+  margin-left: 12px;
+  font-size: 16px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  color: #ffc800;
+  background-color: white;
+  border: solid 2px #ffc800;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+header button:hover {
+  background-color: #ffc800;
+  color: white;
+  transition: 300ms;
+}
+
+main {
+  width: 100%;
+}
+
+.front-home {
+  width: 100%;
+  height: 88vh;
+  background: linear-gradient(to top, #0a0840, #2c2ec0cc), url(../../img/teste.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.front-home h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.front-home button {
+  padding: 14px;
+  margin-left: 12px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  color: #ffc800;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 2px #ffc800;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
