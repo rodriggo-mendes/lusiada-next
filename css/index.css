@@ -1,0 +1,31 @@
+
+.front-home {
+  width: 100%;
+  height: 88vh;
+  background: linear-gradient(to top, #0a0840, #2c2ec0cc), url(../img/teste.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.front-home h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.front-home button {
+  padding: 14px;
+  margin-left: 12px;
+  font-size: 20px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  color: #ffc800;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 2px #ffc800;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
